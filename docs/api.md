@@ -1,0 +1,17 @@
+- users:
+  - retrieve all users
+    - GET/users
+  - create a user
+    - POST/users
+  - retrieve one user
+    - GET/users/{id} -> /users/1
+  - delete a user
+    - DELETE/users/{id} -> /users/1
+  - Posts
+    - retrieve all posts for a user
+      - GET/users/{id}/posts
+    - create a post for a user
+      - POST/users/{id}/posts
+    - retrieve detail of a post
+      - GET/users/{id}/posts/{id}
+    - 
